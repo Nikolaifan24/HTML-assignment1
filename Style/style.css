@@ -1,0 +1,114 @@
+/* form {
+    width: 355px;
+    margin: 130px auto;
+    align-items: center;
+} */
+  /* fieldset {
+    width: 325px;
+    border-radius: 9px;
+} */
+.formulario{
+    display: flex;
+    justify-content: center;
+    margin: 80px;
+    font-family: 'Montserrat', sans-serif;
+}
+.formulario form{
+    max-width: 80%;
+    border-radius: 1.25rem;
+    background: var(--apoio);
+    box-shadow: 7px 7px 15px 0px rgba(0, 0, 0, 0.08);
+    padding: 8px 100px;
+}
+.formulario h2{
+    font-size: 32px;
+    font-weight: 400;
+    color: #212121;
+    font-family: 'Prata', serif;
+}
+
+  footer{
+    text-align: center; font-size: 75%;
+  }
+
+  img{
+  width: 50px;
+  height: 30px;
+}
+.entradas{
+    margin: 24px 0;
+    font-family: 'Montserrat', sans-serif;
+}
+ 
+.entradas label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+.entradas input {
+    width: 100%;
+    height: 3rem;
+    font-size: 16px;
+    font-weight: 400;
+    background: var(--secundria);
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.06);
+    /* box-sizing: border-box; */
+    border: none;
+    text-align: center;
+}
+
+.boton1{
+    border-radius: 0.625rem;
+    background:  #6278F7;
+    color:  #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    width: 100px;
+    height: 3rem;
+    cursor: pointer;
+}
+.boton1:hover{
+    color: #95FFD4
+}
+
+.boton2{
+    border-radius: 0.625rem;
+    background:  #36e07d;
+    color:  #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    width: 100px;
+    height: 3rem;
+    cursor: pointer;
+}
+.boton2:hover{
+    color: #3c3ab9
+}
+.opciones{
+    margin: 24px 0;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+.opciones label{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    display: block;
+}
+.opciones select {
+    font-family: 'Montserrat', sans-serif;
+    width: 100%;
+    height: 3rem;
+    font-size: 16px;
+    font-weight: 400;
+    background: var(--apoio);
+    box-shadow: 10px 10px 30px 0px rgba(0, 0, 0, 0.06);
+    /* outline-color: var(--secundria); */
+    border: none;
+    text-align: center;
+}

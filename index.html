@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/Assignment1/Style/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <title>Assignment1</title>
+</head>
+
+<body>
+  <section class = "formulario">
+     <!-- order information -->
+    <form action="?" method="post">
+      <fieldset>
+      <legend> Pizza Form</legend><br>
+      <h2>Please enter your order</h2>
+      
+    
+      <!-- types of pizza --> 
+      <div className="entradas">
+        <label for="">Type:</label><br>
+  
+        <label for="">
+          <input type="radio" value="#1">
+          <img src="pizza1.jpg" alt="">
+        </label>
+  
+        <label for="">
+          <input type="radio" value="#1">
+          <img src="pizza2.jpg" alt="">
+        </label>
+  
+        <label for="">
+          <input type="radio" value="#1">
+          <img src="pizza3.jpg" alt="">
+        </label>
+  
+        <label for="">
+          <input type="radio" value="#1">
+          <img src="pizza4.jpg" alt="">
+        </label>
+  
+      </div>
+
+     
+
+        <br><br>
+
+        <!-- numbers -->
+        <div className= "entradas">
+          <label for="">Pieces:</label><br>
+
+          <input type="radio" value="1">
+          <label for="">6</label>
+          <input type="radio" value="2">
+          <label for="">8</label>
+          <input type="radio" value="3">
+          <label for="">10</label>
+          <input type="radio" value="4">
+          <label for="">12</label>
+        </div>
+
+        <br><br>
+
+        <!-- size -->
+        <div className= "entradas">
+          <label for="">Size:</label><br>
+          <div className= "entradas">
+            <input type="radio" value="small">
+            <label for="">small</label>
+            <input type="radio" value="medium">
+            <label for="">medium</label>
+            <input type="radio" value="large">
+            <label for="">large</label>
+            <input type="radio" value="extra-large">
+            <label for="">extra-large</label>
+          </div>
+     
+        </div>
+
+  
+
+        <br><br>
+         
+        
+        <div className="entradas">
+          <i><label for="">What, you want more<b><span class="question mark">???</span></b></label></i>
+          <input type="text" placeholder="type whatever you want"><br><br>
+        </div>
+
+  
+        <!-- option -->
+        <div class="opciones">
+          <label>Do you want?</label>
+          <select>
+              <option>Select an option</option>
+              <option>Eat in place</option>
+              <option>Delivery</option>
+              <option>take out</option>
+  
+          </select>
+      </div>
+  
+      </fieldset><br>
+  
+      <!-- personal information -->
+      <fieldset>
+        <legend>Information</legend><br>
+        <div class="entradas">
+          <label for="">Name:</label>
+          <input type="text" placeholder="your name"><br><br>
+        </div>
+        
+        
+        <div class="entradas">
+          <label for="">Numbers:</label>
+          <input type="tel" placeholder="your numebrs"><br><br>
+        </div>
+
+  
+        <div class="entradas">
+          <label for="">Address:</label>
+          <input type="text" placeholder="your address"><br><br>
+        </div>
+
+        
+        <div class="entradas">
+          <label for="">Email:</label>
+          <input type="email" placeholder="your email">
+        </div>
+
+      </fieldset>
+      <button class="boton1">Crear</button>
+      <button class="boton2">Reset</button>
+   </form>
+  </section>
+  
+  
+</body>
+<footer>
+Copyright &copy; 2024 Nikolai Fandiño. All rights reserved.
+</footer>
+</html>
